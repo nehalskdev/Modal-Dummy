@@ -7,7 +7,7 @@ const btnOpenModal = document.querySelectorAll('.show-modal');
 console.log(btnOpenModal);
 
 const openModal = function () {
-  modal.classList.remove('hidden'); // we do not use . or # here for targetting classes and id
+  modal.classList.remove('hidden'); 
   overlay.classList.remove('hidden');
 };
 
